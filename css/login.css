@@ -114,3 +114,37 @@
 	font-weight: 600;
 	color: #999;
 }
+
+.phone-container{
+	align-self: center;
+	background-image: url(/images/login_phone.jpg);
+	height: 618px;
+	background-position: 0 0;
+    background-size: 454px 618px;
+    margin-left: -35px;
+    margin-right: -15px;
+    background-repeat: no-repeat;
+}
+
+.phone-img{
+	height: 427px;
+    left: 130px;
+    position: absolute;
+    top: 99px;
+    width: 240px;
+    opacity: 0;
+	visibility: hidden;
+    
+}
+
+.phone-img-show{
+	opacity: 1;
+	visibility: visible;
+}
+
+.phone-img,
+.phone-img-show{
+  transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -webkit-transition: all 2s ease-in-out;
+}
